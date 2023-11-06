@@ -1,0 +1,32 @@
+<ns4:SignedInfo  xmlns:xmlsig="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://www.w3.org/2000/09/xmldsig#" >
+    <ns4:CanonicalizationMethod Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+    <ns4:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+    <ns4:Reference URI="#id2">
+        <ns4:Transforms>
+            <ns4:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns4:Transforms>
+        <ns4:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns4:DigestValue>Seuesr+Zd45l14D2EUXvfvxu9VUKlwdwiHGm+bsi1bg=</ns4:DigestValue>
+    </ns4:Reference>
+    <ns4:Reference URI="#id1">
+        <ns4:Transforms>
+            <ns4:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns4:Transforms>
+        <ns4:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns4:DigestValue>SMxU1N8woXufOehEonR3QF2d3s+djR+UtHFW0AXxdIc=</ns4:DigestValue>
+    </ns4:Reference>
+    <ns4:Reference URI="#id4">
+        <ns4:Transforms>
+            <ns4:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns4:Transforms>
+        <ns4:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns4:DigestValue>BSSUNe+eA/Mdw5QwjEuEetzCp59f/cP1lVZOHjxmBHI=</ns4:DigestValue>
+    </ns4:Reference>
+    <ns4:Reference URI="#id3">
+        <ns4:Transforms>
+            <ns4:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns4:Transforms>
+        <ns4:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns4:DigestValue>J8+rYpUCncV5o2MBdLUAQkn8IjGju0z5bNlkY8+WdO4=</ns4:DigestValue>
+    </ns4:Reference>
+</ns4:SignedInfo>

@@ -1,0 +1,16 @@
+<v2gci_b:V2G_Message 
+ xmlns:v2gci_d="urn:iso:15118:2:2013:MsgDef"
+ xmlns:v2gci_b="urn:iso:15118:2:2013:MsgBody"
+ xmlns:v2gci_h="urn:iso:15118:2:2013:MsgHeader"
+ xmlns:v2gci_t="urn:iso:15118:2:2013:MsgDataTypes">
+    <v2gci_h:Header>
+        <v2gci_t:SessionID>27813782137812783187</v2gci_t:SessionID>
+    </v2gci_h:Header>
+    <v2gci_b:Body>
+        <v2gci_b:SessionSetupRes>
+            <v2gci_t:ResponseCode>OK_NewSessionEstablished</v2gci_t:ResponseCode>
+            <v2gci_t:EVSEID>sdasdadsadas</v2gci_t:EVSEID>
+            <EVSETimeStamp>1658323501</EVSETimeStamp>
+        </v2gci_b:SessionSetupRes>
+    </v2gci_b:Body>
+</v2gci_b:V2G_Message>

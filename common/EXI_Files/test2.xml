@@ -1,0 +1,9 @@
+<ns5:SignedInfo xmlns:ns5="http://www.w3.org/2000/09/xmldsig#">
+    <ns5:Reference URI="#ID1">
+        <ns5:Transforms>
+            <ns5:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns5:Transforms>
+        <ns5:DigestMethod Algorithm="wwww.blabla.com"/>
+        <ns5:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</ns5:DigestValue>
+    </ns5:Reference>
+</ns5:SignedInfo>

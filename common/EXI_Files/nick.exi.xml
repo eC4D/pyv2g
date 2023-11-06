@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:V2G_Message xmlns:ns3="urn:iso:15118:2:2013:MsgDef" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ns3:Header><ns4:SessionID xmlns:ns4="urn:iso:15118:2:2013:MsgHeader">21312312312312</ns4:SessionID></ns3:Header><ns3:Body><ns5:ServiceDiscoveryReq xmlns:ns5="urn:iso:15118:2:2013:MsgBody"/></ns3:Body></ns3:V2G_Message>

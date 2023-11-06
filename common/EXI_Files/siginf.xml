@@ -1,0 +1,32 @@
+<ns5:SignedInfo xmlns:ns5="http://www.w3.org/2000/09/xmldsig#">
+    <ns5:CanonicalizationMethod Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+    <ns5:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+    <ns5:Reference URI="#id2">
+        <ns5:Transforms>
+            <ns5:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns5:Transforms>
+        <ns5:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns5:DigestValue>o66wy6+XtTqkYfHUJ4SnEmNZ6EZPlLrueBkjbf5H1gE=</ns5:DigestValue>
+    </ns5:Reference>
+    <ns5:Reference URI="#id1">
+        <ns5:Transforms>
+            <ns5:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns5:Transforms>
+        <ns5:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns5:DigestValue>4pUGjLDd43U3ynVt7zJzpdGeGp8j9v6gePHrIe1Zjhg=</ns5:DigestValue>
+    </ns5:Reference>
+    <ns5:Reference URI="#id4">
+        <ns5:Transforms>
+            <ns5:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns5:Transforms>
+        <ns5:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns5:DigestValue>iCcA1WDMiJvpnR+Pmz2hajOiIE5Lbwe+1pU8ixtnhdQ=</ns5:DigestValue>
+    </ns5:Reference>
+    <ns5:Reference URI="#id3">
+        <ns5:Transforms>
+            <ns5:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns5:Transforms>
+        <ns5:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns5:DigestValue>NY3FdK9WFB68IZOO0MFIAN8yEAzWYPqylNZdUaS0P20=</ns5:DigestValue>
+    </ns5:Reference>
+</ns5:SignedInfo>

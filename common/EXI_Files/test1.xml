@@ -1,0 +1,3 @@
+<ns7:AuthorizationReq  xmlns:ns7="urn:iso:15118:2:2013:MsgBody"  Id="ID1">
+    <ns7:GenChallenge>VmF6UzgzNDg5MjQ4OTIzNDMyOTQ=</ns7:GenChallenge>
+</ns7:AuthorizationReq>

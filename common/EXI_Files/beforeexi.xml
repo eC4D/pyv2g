@@ -1,0 +1,17 @@
+<n1:supportedAppProtocolReq xmlns:n1="urn:iso:15118:2:2013:AppProtocol" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <AppProtocol>
+        <ProtocolNamespace>15118:2:2010</ProtocolNamespace>
+        <VersionNumberMajor>1</VersionNumberMajor>
+        <VersionNumberMinor>1</VersionNumberMinor>
+        <SchemaID>9</SchemaID>
+        <Priority>2</Priority>
+    </AppProtocol>
+    <AppProtocol>
+        <ProtocolNamespace>15118:2:2013</ProtocolNamespace>
+        <VersionNumberMajor>2</VersionNumberMajor>
+        <VersionNumberMinor>1</VersionNumberMinor>
+        <SchemaID>10</SchemaID>
+        <Priority>1</Priority>
+    </AppProtocol>
+</n1:supportedAppProtocolReq>

@@ -1,0 +1,11 @@
+<ns4:SignedInfo  xmlns:xmlsig="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://www.w3.org/2000/09/xmldsig#" >
+    <ns4:CanonicalizationMethod Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+    <ns4:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+    <ns4:Reference URI="#ID1">
+        <ns4:Transforms>
+            <ns4:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
+        </ns4:Transforms>
+        <ns4:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ns4:DigestValue>M8BLbCeJm19lPPjE/qXBgBQnXYQZ41I/pIVmU1HpYcg=</ns4:DigestValue>
+    </ns4:Reference>
+</ns4:SignedInfo>

@@ -1,0 +1,11 @@
+<ns6:V2G_Message 
+ xmlns:ns6="urn:iso:15118:2:2013:MsgDef"
+ xmlns:ns7="urn:iso:15118:2:2013:MsgBody"
+ xmlns:ns3="urn:iso:15118:2:2013:MsgHeader">
+    <ns6:Header>
+        <ns3:SessionID>21312312312312</ns3:SessionID>
+    </ns6:Header>
+    <ns6:Body>
+        <ns7:ServiceDiscoveryReq/>
+    </ns6:Body>
+</ns6:V2G_Message>
