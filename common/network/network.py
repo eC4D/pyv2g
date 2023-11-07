@@ -10,13 +10,13 @@ import struct
 import uuid
 import os
 
-import netifaces
-from iso15118.secc import secc_config
+#import netifaces
+from secc import secc_config
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.serialization.pkcs12 import load_key_and_certificates
 
-from iso15118.evcc import evcc_config
-from iso15118.secc import secc_config
+from evcc import evcc_config
+from secc import secc_config
 
 
 def create_evcc_ssl_context(v2grootpath):
@@ -31,7 +31,7 @@ def create_evcc_ssl_context(v2grootpath):
         and the TLS Suite that will be used. EVCC will receive the SECC leaf Certificate
         chain with its corresponding private key and verify if it has the same V2G Root certificate
     """
-    
+
     context = ssl.SSLContext(protocol=ssl.PROTOCOL_TLSv1_2)
     context.verify_mode = ssl.CERT_REQUIRED
     context.load_verify_locations(v2grootpath)

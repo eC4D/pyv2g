@@ -1,6 +1,6 @@
-from iso15118.common.exi_utils import exi_utils
-from iso15118.common.security import securityutils
-from iso15118.secc.secc_message_sender import SECCMessageSender
+from common.exi_utils import exi_utils
+from common.security import securityutils
+from secc.secc_message_sender import SECCMessageSender
 
 class SECCMessageHandler:
     def __init__(self, secc):

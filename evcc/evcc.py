@@ -13,22 +13,20 @@ import re
 
 import socket
 
-from iso15118.evcc import evcc_states
-#from iso5118.evcc import ev_states
-from iso15118.evcc.evcontroller import EVSimController
-from iso15118.evcc import evcc_config
-from iso15118.common.XML import msgdatatypes1
-from iso15118.common.exi_utils import exi_utils
-from iso15118.common.network import network
+from evcc import evcc_states
+from evcc.evcontroller import EVSimController
+from evcc import evcc_config
+from common.XML import msgdatatypes1
+from common.exi_utils import exi_utils
+from common.network import network
 
-from iso15118.common.handlers import MessageHandler
+from common.handlers import MessageHandler
 
-from iso15118.evcc.evcc_handler import EVCCMessageHandler
+from evcc.evcc_handler import EVCCMessageHandler
 
 import os, time
 
-path = "../"
-os.chdir(path)
+
 
 
 # pylint: disable=no-member

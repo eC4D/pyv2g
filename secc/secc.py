@@ -9,19 +9,20 @@ the controller. The SECC object is capable of:
 import os
 import time
 # pylint: disable=import-error
-from iso15118.secc import secc_states
-from iso15118.secc import secc_config
-from iso15118.secc import evsecontroller
-from iso15118.common.exi_utils import exi_utils
-from iso15118.common.network import network
-from iso15118.common.XML import msgbody1, msgdatatypes1
-from iso15118.secc.secc_handler import SECCMessageHandler
+from secc import secc_states
+from secc import evsecontroller
+from secc import secc_config
+
+from common.exi_utils import exi_utils
+from common.network import network
+from common.XML import msgbody1, msgdatatypes1
+from secc import secc_config
+from secc.secc_handler import SECCMessageHandler
 import cProfile
 
-from iso15118.common.handlers import MessageHandler
+from common.handlers import MessageHandler
 
-path="../"
-os.chdir(path)
+
 
 
 # pylint: disable=no-member

@@ -5,11 +5,13 @@
  xmlns:ns6="urn:iso:15118:2:2013:MsgDataTypes"
  xmlns:xmlsig="http://www.w3.org/2000/09/xmldsig#">
     <ns7:Header>
-        <ns8:SessionID>DE0AA1F14533DED7</ns8:SessionID>
+        <ns8:SessionID>AB3A3C4CD8AC2B98</ns8:SessionID>
     </ns7:Header>
     <ns7:Body>
-        <ns5:SessionStopRes>
-            <ns5:ResponseCode>OK</ns5:ResponseCode>
-        </ns5:SessionStopRes>
+        <ns5:SessionSetupRes>
+            <ns5:ResponseCode>OK_NewSessionEstablished</ns5:ResponseCode>
+            <ns5:EVSEID>DE*V2G*CLARITY123</ns5:EVSEID>
+            <ns5:EVSETimeStamp>1699346392</ns5:EVSETimeStamp>
+        </ns5:SessionSetupRes>
     </ns7:Body>
 </ns7:V2G_Message>

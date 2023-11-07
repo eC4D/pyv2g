@@ -15,7 +15,7 @@ import os
 import base64
 import hashlib
 import random
-from iso15118.common import java_caller
+from common import java_caller
 from cryptography.hazmat.primitives import serialization
 from cryptography import x509
 from cryptography.hazmat.primitives import hashes
@@ -26,7 +26,7 @@ from cryptography.hazmat.primitives.kdf.hkdf import HKDF
 from cryptography.hazmat.primitives.serialization.pkcs12 import load_key_and_certificates
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
-from iso15118.common.XML import msgbody1, msgdatatypes1, msgxmlschema1, msgDef1, msgheader1
+from common.XML import msgbody1, msgdatatypes1, msgxmlschema1, msgDef1, msgheader1
 
 
 def load_private_key(path):

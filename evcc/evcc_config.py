@@ -30,10 +30,10 @@ slow_mode_custom = {
 appprotocols = [['15118:2:2010', 1, 1, 9, 2], ['15118:2:2013', 1, 2, 10, 1]]
 
 #Chargint method, for AC case switch to AC
-CHARGING = 'DC_combo_core'
-#CHARGING = 'AC_three_phase_core'
-CHARGING_MODE = 'DC'
-#CHARGING_MODE = 'AC'
+#CHARGING = 'DC_combo_core'
+CHARGING = 'AC_three_phase_core'
+#CHARGING_MODE = 'DC'
+CHARGING_MODE = 'AC'
 
 #Interface 
 interfacename = ""
@@ -42,19 +42,18 @@ interfacename = ""
 SELECTEDPAYMENTOPTION = 'Contract'
 #SELECTEDPAYMENTOPTION = 'ExternalPayment'
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# This will get you the directory of the current file (secc.py)
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-
-
-# Get the absolute path of the parent directory of the current working directory
-parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+# This will get you the parent directory of the current_dir, which should be the project root
+BASE_DIR = os.path.dirname(current_dir)
 
 
 
 
 # Define the paths to the certificates relative to the parent directory
-V2GROOTPATH = os.path.join(parent_dir,'common' ,'PKI', 'EVCC', 'v2gRootCACert.pem')
-OEMPATH = os.path.join(parent_dir,'common' ,'PKI', 'EVCC', 'oemProvCert.pem')
-OEMPROV_PRIV_KEY = os.path.join(parent_dir,'common' ,'PKI', 'EVCC', 'oemProv.key')
+V2GROOTPATH = os.path.join(BASE_DIR,'common' ,'PKI', 'EVCC', 'v2gRootCACert.pem')
+OEMPATH = os.path.join(BASE_DIR,'common' ,'PKI', 'EVCC', 'oemProvCert.pem')
+OEMPROV_PRIV_KEY = os.path.join(BASE_DIR,'common' ,'PKI', 'EVCC', 'oemProv.key')
 
 #Contract Certificate Not Installed -> Will be Installed with with ContractInstallationRes

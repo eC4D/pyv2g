@@ -1,8 +1,3 @@
-<ns5:MeteringReceiptReq xmlns:ns5="urn:iso:15118:2:2013:MsgBody" xmlns:ns6="urn:iso:15118:2:2013:MsgDataTypes"  Id="id1">
-    <ns5:SAScheduleTupleID>1</ns5:SAScheduleTupleID>
-    <ns5:MeterInfo>
-        <ns6:MeterID>V2G-CLARITY-METER-12345</ns6:MeterID>
-        <ns6:MeterReading>2914</ns6:MeterReading>
-        <ns6:TMeter>1480345690</ns6:TMeter>
-    </ns5:MeterInfo>
-</ns5:MeteringReceiptReq>
+<ns5:AuthorizationReq xmlns:ns5="urn:iso:15118:2:2013:MsgBody" xmlns:ns6="urn:iso:15118:2:2013:MsgDataTypes" Id="id1">
+    <ns5:GenChallenge>RDFDMjlDRDU3QkU3NzZCQ0VGRTk1QkEzOENGQ0M1Mjk=</ns5:GenChallenge>
+</ns5:AuthorizationReq>

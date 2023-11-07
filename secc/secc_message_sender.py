@@ -1,8 +1,8 @@
 from datetime import datetime
-from iso15118.common.XML import appprotocol1, msgbody1, msgdatatypes1, msgDef1
-from iso15118.secc import secc_config
-from iso15118.common.exi_utils import exi_utils
-from iso15118.common.security import securityutils
+from common.XML import appprotocol1, msgbody1, msgdatatypes1, msgDef1
+from secc import secc_config
+from common.exi_utils import exi_utils
+from common.security import securityutils
 import time
 
 

@@ -6,6 +6,6 @@
             <ns4:Transform Algorithm="http://www.w3.org/TR/canonical-exi/"/>
         </ns4:Transforms>
         <ns4:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-        <ns4:DigestValue>tFzaY5mvtDezLmi+3D21u+Ns9w1s6IQD6veZg6dbex0=</ns4:DigestValue>
+        <ns4:DigestValue>E3F/R97o3isWBGATGODRNOtKTdBiDaSd9HIMe1l4Xg8=</ns4:DigestValue>
     </ns4:Reference>
 </ns4:SignedInfo>

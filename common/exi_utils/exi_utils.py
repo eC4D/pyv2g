@@ -1,8 +1,8 @@
-from iso15118.common import java_caller
-from iso15118.common.XML import msgDef1, appprotocol1
-from iso15118.secc import secc_config
+from common import java_caller
+from common.XML import msgDef1, appprotocol1
+from secc import secc_config
 from termcolor import colored
-from iso15118.evcc import evcc_config
+from evcc import evcc_config
 
 
 def print_colored_green(text):

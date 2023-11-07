@@ -1,8 +1,8 @@
-from iso15118.common.XML import appprotocol1, msgbody1, msgdatatypes1, msgDef1
-from iso15118.evcc import evcc_config
-from iso15118.common.exi_utils import exi_utils
-from iso15118.common.security import securityutils
-from iso15118.common.network import network
+from common.XML import appprotocol1, msgbody1, msgdatatypes1, msgDef1
+from evcc import evcc_config
+from common.exi_utils import exi_utils
+from common.security import securityutils
+from common.network import network
 from cryptography import x509
 
 
