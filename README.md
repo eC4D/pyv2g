@@ -1,4 +1,4 @@
-# pyv2g
+# pyPnC
 
 # Open ISO15118-2 Implementation
 
